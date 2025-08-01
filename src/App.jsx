@@ -143,10 +143,11 @@ function App() {
           <nav className="nav">
             <a href="#home">Home</a>
             <a href="#about">About</a>
+            <a href="#systems">Systems</a>
             <a href="#water-terms">Water Terms</a>
-            <a href="#chatbot" onClick={scrollToChat}>
-              Chat
-            </a>
+            {/* <a href="#chatbot" onClick={scrollToChat}>
+               Chat
+            </a> */}
           </nav>
         </div>
       </header>
@@ -245,7 +246,7 @@ function App() {
       </section>
 
       {/* Water Systems Section */}
-      {/* <section className="systems hidden" id="systems">
+      <section className="systems hidden" id="systems">
         <div className="container">
           <h2 className="section-title fade-in">
             Our Water Conditioning Systems
@@ -289,7 +290,7 @@ function App() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Water Terms Cards */}
       <section className="water-terms-cards hidden" id="water-terms">
