@@ -145,7 +145,7 @@ function App() {
             <a href="#about">About</a>
             <a href="#water-terms">Water Terms</a>
             <a href="#chatbot" onClick={scrollToChat}>
-              Ask Water Chat
+              Chat
             </a>
           </nav>
         </div>
